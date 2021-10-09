@@ -1,0 +1,95 @@
+body{
+    background-color: antiquewhite;
+}
+.header{
+    background-color: cadetblue;
+    height: 100px;
+}
+.header-logo{
+    float: left;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+a{
+    color:black;
+}
+.header-list{
+    padding: 5px;
+}
+.header-list ul li{
+    float: right;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    list-style: none;
+}
+
+.main{
+    background-color: rgb(red, green, blue);
+    height: 600px;
+}
+.judul h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.artikel{
+    float:left;
+    background-color: rgb(96, 224, 10);
+    width: 300px;
+    height: auto;
+    border: 2px solid blue;
+    position: relative;
+}
+.artikel a{
+    font-size: 20px;
+    padding: 10px;
+    color:black;
+}
+.artikel ul li{
+    margin-bottom: 10px;
+}
+.artikel p{
+    text-align: center;
+}
+.paragraf{
+    text-align: justify;
+    position: absolute;
+    padding-top: 30px;
+    font-size: 15px;
+    
+
+}
+.paragraf1{
+    text-align: justify;
+    position: relative;
+    float: right;
+}
+.paragraf1 pre{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer{
+    background: cadetblue;
+    height: 100px;
+    padding-top: 5px;
+    position: relative;
+}
+.footer-logo{
+    float: left;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+.footer-list{
+    padding: 5px;
+}
+.footer-list ul li{
+    float: right;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    list-style: none;
+    margin:auto;
+}

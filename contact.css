@@ -1,0 +1,81 @@
+body{
+    background-color: antiquewhite;
+}
+.header{
+    background-color: cadetblue;
+    height: 100px;
+}
+.header-logo{
+    float: left;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+a{
+    color:black;
+}
+.header-list{
+    padding: 5px;
+}
+.header-list ul li{
+    float: right;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    list-style: none;
+}
+
+.main{
+    background-color: rgb(red, green, blue);
+    height: 600px;
+}
+.judul h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 1px solid black;
+}
+.contact{
+    text-align: justify;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 15px;
+}
+.item{
+    float:left;
+}
+.paragraf{
+    text-align: justify;
+    position: relative;
+    float: right;
+}
+ul{
+    padding-top: 20px;
+}
+li{
+    list-style: none;
+    margin: 5px;
+}
+.footer{
+    background: cadetblue;
+    height: 100px;
+    padding-top: 5px;
+    position: relative;
+}
+.footer-logo{
+    float: left;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+.footer-list{
+    padding: 5px;
+}
+.footer-list ul li{
+    float: right;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    list-style: none;
+    margin:auto;
+}
