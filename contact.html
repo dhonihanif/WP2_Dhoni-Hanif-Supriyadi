@@ -1,65 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <meta charset="utf-8">
-    <title>Project Web</title>
-    <link rel="stylesheet" href="contact.css">
+    <head>
+        <title>W3.CSS Template</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+        <style>
+            body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+            .w3-bar-block .w3-bar-item {padding:20px}
+        </style>
+    </head>
+    <body>
 
-</html>
-<body>
-    <div class="header">
-        <div class="header-logo">
-            <a href="#">Dhoni</a>
-        </div>
-        <div class="header-list">
-            <ul>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="home.html">Home</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="main">
-        <div class="judul">
-            <h1>Kontak Kami</h1>
-        </div>
-        <div class="contact">
-            <div class="paragraf">
-                <ul>
-                    <li>Nama                    :</li>
-                    <li style="color:blue">Dhoni Hanif Supriyadi</li>
-                </ul>
-                <ul>
-                    <li>Tempat/Tanggal Lahir    :</li>
-                    <li style="color: blue;">Jakarta/27 November 2001</li>
-                </ul>
-                <ul>
-                    <li>Tinggal                 :</li>
-                    <li style="color: blue;">Lubang Buaya,Jakarta Timur</li>
-                </ul>
-                <ul>
-                    <li>No HP/WA                :</li>
-                    <li style="color: blue;">+62 895326168335</li>
-                </ul>
-            </div>
-            <div class="item">
-                
-                <img src="dhoni_hanif.jpg" width="400" height="400">
-                
-            </div>
-            <div class="item2">
-            </div>
+    <!-- Sidebar (hidden by default) -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+    class="w3-bar-item w3-button">Close Menu</a>
+    <a href="home.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+    <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+            <div class="w3-right w3-padding-16">Mail</div>
+            <div class="w3-center w3-padding-16">Welcome To Our Website</div>
         </div>
     </div>
-        
-    </div>
-    <div class="footer">
-        <div class="footer-logo">
-            <a href="#">Dhoni</a>
+  
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+    <!-- First Photo Grid-->
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+        <div class="w3-quarter">
+            <img src="dhoni_hanif.jpg" alt="Sandwich" style="width:100%">
         </div>
-        <div class="footer-list">
-            <ul>
-                <li><a href="#">Saran</a></li>
-            </ul>
+        <div class="w3-quarter">
+            <p>Nama : </p>
+            <p style="color: blue;">Dhoni Hanif Supriyadi</p>
+            <p>Tempat,Tanggal Lahir : </p>
+            <p style="color: blue;">Jakarta, 27 November 2001</p>
+            <p>Email : </p>
+            <p style="color: blue;">dhonihanif354@gmail.com</p>
+            <p>No Whatsapp : </p>
+            <p style="color: blue;">+62 895326168335</p>
         </div>
+       
     </div>
+  
+    
+    </div>
+
+  
+ 
+  
+  <!-- Footer -->
+    <footer class="w3-row-padding w3-padding-32">
+        <div class="w3-third">
+            <h3>Keterangan</h3>
+            <p>Website ini dibuat untuk mempermudah menemukan materi kuliah dan contoh tugasnya jurusan Sistem Informasi</p>
+            <p>Dibuat oleh <a href="contact.html">Dhoni Hanif Supriyadi</a></p>
+        </div>
+  
+        <div class="w3-third">
+            <h3>BLOG POSTS</h3>
+            <p>Kami menyediakan materi dan contoh tugas dari semester 1 sampai 8</p>
+        </div>
+
+        <div class="w3-third w3-serif">
+            <h3>POPULAR TAGS</h3>
+      
+        </div>
+    </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
 </body>
+</html>
