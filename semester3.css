@@ -1,0 +1,73 @@
+.kuliah{
+    color: gold;
+    padding-top:10px;
+    padding-bottom:34.7%;
+    background-color: rgb(52, 73, 94 );
+    
+}
+.kuliah h6{
+    position: absolute;
+    width: 240px;
+    padding-top:20px;
+    padding-left:20px;
+}
+.kuliah1{
+    color: gold;
+    padding-top:10px;
+    padding-bottom:34.7%;
+    background-color: rgb(52, 73, 94 );
+}
+.kuliah1 h6{
+    position: absolute;
+    width: 250px;
+    padding-top:15px;
+    padding-left:25px;
+}
+
+.kuliah2{
+    color: gold;
+    padding-top:10px;
+    padding-bottom:35%;
+    background-color: rgb(52, 73, 94 );
+}
+.kuliah2 h6{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 75px;
+}
+.kuliah3{
+    color: gold;
+    padding-top:10px;
+    padding-bottom:35%;
+    background-color: rgb(52, 73, 94 );
+}
+.kuliah3 h6{
+    position: absolute;
+    padding-top:20px;
+    padding-left:50px;
+}
+.kuliah4{
+    color: gold;
+    padding-top:10px;
+    padding-bottom:35%;
+    background-color: rgb(52, 73, 94 );
+}
+.kuliah4 h6{
+    position:absolute;
+    padding-top:17px;
+    padding-left:90px;
+}
+.kuliah5{
+    color: gold;
+    padding-top:10px;
+    padding-bottom:34.7%;
+    background-color: rgb(52, 73, 94 );
+}
+.kuliah5 h6{
+    position: absolute;
+    padding-top:20px;
+    padding-left: 50px;
+}
+.kuliah:hover,.kuliah1:hover,.kuliah2:hover,.kuliah3:hover,.kuliah4:hover,.kuliah5:hover{
+    background-color: red;
+}
